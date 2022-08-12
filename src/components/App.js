@@ -13,6 +13,5 @@ function App(){
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('ball'));
-root.render(<App />);
+
 export default App;
