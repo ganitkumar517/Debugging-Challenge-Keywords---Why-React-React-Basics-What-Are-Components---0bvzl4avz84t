@@ -4,6 +4,9 @@ import '../styles/App.css';
 function App(){
 
   let [count, setCount] = useState(0)
+  function setCount(a){
+    return a;
+  }
 
   return (
     <div class="ball">
